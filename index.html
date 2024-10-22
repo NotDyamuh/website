@@ -3,46 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dyamuh's website</title>
+    <title>dyamuh.com | website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <canvas id="rainCanvas"></canvas>
-    <div class="content">
-        <div class="box">
-            <div class="profile-pic">
-                <img src="https://avatars.githubusercontent.com/u/81250612?v=4" alt="Profile Picture" />
-            </div>
-            <h1>NotDyamuh</h1>
-            <p>lazy web developer interested in chromebook jailbreaks and networking.</p>
-            <div class="links">
-                <a href="https://cash.app/$dyamuh" class="link">
-                    <img src="https://i.pinimg.com/736x/67/06/2d/67062d5a719728cbe583579efe4e928f.jpg"/>
-                </a>
-                <a href="https://darkn.bio/sh1mmer/" class="link">
-                    <img src="https://avatars.githubusercontent.com/u/116328501?s=280&v=4"/>
-                </a>
-                <a href="https://exploits.dyamuh.com/chromebook" class="link">
-                    <img src="https://d12jofbmgge65s.cloudfront.net/wp-content/uploads/2023/02/tech-guide_header-image-chrome-1.webp"/>
-                </a>
-                <a href="https://fh.dyamuh.com/" class="link">
-                    <img src="https://www.shutterstock.com/image-vector/download-icon-vector-illustration-on-600nw-1724759407.jpg"/>
-                </a>
-                <a href="https://discord.com/users/785207024388407347" class="link">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVLNwya8kZpGSEWfRoKUrE1Hs8KHpcMVSozg&s"/>
-                </a>
-            </div>
-        </div>
-        <div class="social-links">
-            <a href="https://github.com/NotDyamuh" class="social-link">
-                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="GitHub" />
+    <header>
+        <h1>addition to dyamuh.com</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#exploits">Exploits</a></li>
+                <li><a href="https://blog.dyamuh.com/">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="tab-content active">
+            <h2>Welcome!</h2>
+            <p>Nothing to see here yet.</p>
+        </section>
+
+        <section id="exploits" class="tab-content hidden">
+            <h2>Exploits</h2>
+            <article>ne
+                <h4><a href="https://collticated.dyamuh.com/">Collticated</a></h4>
+                <p>Collticated is a proxy used for testing purposes and pushing code through a proxy system.</p>
+            </article>
+            <article>
+                <h4><a href="https://hardmathproblems.11ate.com/">HardMathProblems</a></h4>
+                <p>Exact same thing as Collticated. This is just an affiliate link to the page.</p>
+            </article>
+            <article>
+                <h4><a href="#exploit3">Title 3</a></h4>
+                <p>This is a description for Title 3. Click the title for more details.</p>
+            </article>
+        </section>
+
+        <section id="about" class="tab-content hidden">
+            <h2>About This Website</h2>
+            <p>This website serves as a place where you can find links and blogs about the latest news in jailbreaking.</p>
+        </section>
+
+        <section id="contact" class="tab-content hidden">
+            <h2>Contact Me</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <a href="mailto:humaydk12@gmail.com" class="link">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0XvFduY7sDBknSh_lJd80OzsdZ_LaHL2w-g&s" class="gmail-icon"/>
             </a>
-            <a href="https://discord.com/invisible_taewon" class="social-link">
-                <img src="https://yt3.googleusercontent.com/Ws_BpAWD46mOjCW3XCnsZ0YmghW-6fhMf6d9pvCvb4g8JJftgvL54039U1mgh31OchR4ApMTezc=s900-c-k-c0x00ffffff-no-rj" alt="Discord" />
-            </a>
-        </div>
-    </div>
-    <div id="customCursor"></div>
+        </section>
+
+        <section id="blog" class="tab-content hidden">
+            <h2>Blog</h2>
+            <article>
+                <h4>Blog Post Title 1</h4>
+                <p>This is a summary of the first blog post. It contains interesting insights and discussions. <a href="#post1">Read more</a></p>
+            </article>
+            <article>
+                <h4>Blog Post Title 2</h4>
+                <p>This is a summary of the second blog post. It dives into new trends and updates. <a href="#post2">Read more</a></p>
+            </article>
+            <article>
+                <h4>Blog Post Title 3</h4>
+                <p>This is a summary of the third blog post. It highlights essential tips and tricks. <a href="#post3">Read more</a></p>
+            </article>
+        </section>
+
+        <section id="post1" class="tab-content hidden">
+            <h2>Blog Post Title 1</h2>
+            <p>This is the full content of the first blog post...</p>
+        </section>
+
+        <section id="post2" class="tab-content hidden">
+            <h2>Blog Post Title 2</h2>
+            <p>This is the full content of the second blog post...</p>
+        </section>
+
+        <section id="post3" class="tab-content hidden">
+            <h2>Blog Post Title 3</h2>
+            <p>This is the full content of the third blog post...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 dyamuh website. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
+    <script>
+        const rainCanvas = document.getElementById('rainCanvas');
+        const ctx = rainCanvas.getContext('2d');
+
+        rainCanvas.width = window.innerWidth;
+        rainCanvas.height = window.innerHeight;
+
+        let raindrops = [];
+
+        // Create raindrops
+        for (let i = 0; i < 100; i++) {
+            raindrops.push({
+                x: Math.random() * rainCanvas.width,
+                y: Math.random() * rainCanvas.height,
+                length: Math.random() * 20 + 10,
+                speed: Math.random() * 2 + 1 // Slower speed
+            });
+        }
+
+        function drawRain() {
+            ctx.clearRect(0, 0, rainCanvas.width, rainCanvas.height);
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.6)';
+            ctx.lineWidth = 2;
+
+            for (let drop of raindrops) {
+                ctx.beginPath();
+                ctx.moveTo(drop.x, drop.y);
+                ctx.lineTo(drop.x, drop.y + drop.length);
+                ctx.stroke();
+
+                drop.y += drop.speed; // Move raindrop down
+
+                // Reset raindrop to the top once it falls off the screen
+                if (drop.y > rainCanvas.height) {
+                    drop.y = -drop.length; // Reset to just above the top
+                    drop.x = Math.random() * rainCanvas.width; // Random horizontal position
+                }
+            }
+        }
+
+        // Draw rain at a slower interval
+        setInterval(drawRain, 33); // About 30 frames per second
+
+        // Resize canvas on window resize
+        window.addEventListener('resize', () => {
+            rainCanvas.width = window.innerWidth;
+            rainCanvas.height = window.innerHeight;
+        });
+    </script>
 </body>
 </html>
+
